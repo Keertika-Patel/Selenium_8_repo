@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class ToLearnClickAndHold {
 
 	public static void main(String[] args) throws InterruptedException {
+		//modified in GitHub
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
